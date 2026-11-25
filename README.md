@@ -27,7 +27,7 @@
 
 <h3 align="left">GitHub Stats:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MYTPONS&show_icons=true&locale=en&hide_border=true" alt="MYTPONS GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MYTPONS&show_icons=true&locale=en&hide_border=true&hide_rank=true" alt="MYTPONS GitHub stats" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MYTPONS&layout=compact&locale=en&hide_border=true" alt="MYTPONS top languages" height="165" />
 </p>
 
