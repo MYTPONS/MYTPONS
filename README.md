@@ -5,12 +5,6 @@
   <img src="https://komarev.com/ghpvc/?username=MYTPONS&label=Profile%20views&color=0e75b6&style=flat" alt="MYTPONS profile views" />
 </p>
 
-- 现在在做：让 agent 记住上下文、操作真实浏览器、在改动前留下可恢复的快照。
-- 也在写：一个逐章推进的长篇小说工作台。
-- 最近研究：DSH 插件、Cordis、浏览器自动化和本地优先工作流。
-- 可以问我：DSH、Node.js、浏览器自动化、项目记忆和备份策略。
-- 联系我：通过 GitHub Issues，或直接看对应仓库的 README。
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://github.com/MYTPONS" target="blank">
