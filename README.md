@@ -1,42 +1,45 @@
 # MYTPONS
 
-`DSH tooling` · `agent systems` · `local-first automation`
+独立开发者。喜欢把反复出现的问题做成工具，再让 agent 接管它们。
 
-我把 DeepSeek Harness（DSH）当作一个可扩展的运行时，而不是一次性聊天窗口。当前主线是把备份、项目记忆、浏览器控制和逆向研究工作流做成**可安装、可恢复、可验证**的工具。
+![MYTPONS personal workbench](assets/agent-loop.svg)
 
-![MYTPONS public DSH tool surface](assets/dsh-surface.svg)
+## 现在
 
-## DSH toolchain
+我在做一套让 agent 能持续工作的底层能力：
 
-- **[dsh-project-memory](https://github.com/MYTPONS/dsh-project-memory)** · [v1.0.0](https://github.com/MYTPONS/dsh-project-memory/releases/tag/v1.0.0) · [CI](https://github.com/MYTPONS/dsh-project-memory/actions/workflows/verify.yml) — `project_*` tools for records, logs, docs, feature checklist, bounded search, archive, and restore.
-- **[dsh-browser-cdp](https://github.com/MYTPONS/dsh-browser-cdp)** · [v1.0.1](https://github.com/MYTPONS/dsh-browser-cdp/releases/tag/v1.0.1) · [CI](https://github.com/MYTPONS/dsh-browser-cdp/actions/workflows/verify.yml) — `browser_*` tools over persistent Firefox or Chromium/CDP sessions.
-- **[dsh-backup](https://github.com/MYTPONS/dsh-backup)** · [v1.0.0](https://github.com/MYTPONS/dsh-backup/releases/tag/v1.0.0) · [CI](https://github.com/MYTPONS/dsh-backup/actions/workflows/verify.yml) — one self-pruning snapshot store for files outside version control.
+- **记住上下文**：让下一次会话知道上次为什么做、做到哪、什么还没做。
+- **进入真实浏览器**：不是截图 API，而是能点击、输入、切换标签的浏览器会话。
+- **在动手前留下退路**：不可重建的文件有快照，覆盖和删除有保留期。
+- **把过程写下来**：长篇小说、产品方向和逆向研究，都应该留下可检查的轨迹。
 
-这些仓库都是 DSH bundle，不是通用 SaaS 或空壳 demo。安装路径、工具边界、测试和 Release 都写在各自 README 里。
+## 最近公开
 
-## Selected work
+- [dsh-project-memory](https://github.com/MYTPONS/dsh-project-memory) — 记录、日志、文档、功能清单，以及主存档和恢复。
+- [dsh-browser-cdp](https://github.com/MYTPONS/dsh-browser-cdp) — 给 agent 一套 `browser_*` 工具，默认持久 Firefox，也可切到 Chromium/CDP。
+- [dsh-backup](https://github.com/MYTPONS/dsh-backup) — 一个自动清理保留期的文件快照仓库。
 
-- **[draftvein](https://github.com/MYTPONS/draftvein)** `TypeScript · writing` — 逐章推进的 AI 长篇小说写作工作台，含伏笔台账、质量审稿与作家助手草稿递交。
-- **[blackbox-web-reverse](https://github.com/MYTPONS/blackbox-web-reverse)** `Agent skill · research` — 面向授权目标的黑盒 Web 逆向工作流：前端、接口契约、数据模型与证据包。
-- **[idea-collider](https://github.com/MYTPONS/idea-collider)** `Python · product research` — 把两个领域的硬约束求交集，用证据过滤生成可开工的产品方向。
-- **[nodegrid](https://github.com/MYTPONS/nodegrid)** `Python · distributed systems` — 服务器控制免公网节点的分布式任务框架，带风险分级抽查与完整性探针。
-- **[AppDian](https://github.com/MYTPONS/AppDian)** `Android · data tools` — 用 JSON 规则聚合应用列表、详情与下载地址的应用软件库。
+## 也会写点别的
 
-## Working rules
+- [draftvein](https://github.com/MYTPONS/draftvein) — 逐章推进的长篇小说写作工作台。
+- [blackbox-web-reverse](https://github.com/MYTPONS/blackbox-web-reverse) — 面向授权目标的黑盒 Web 逆向工作流。
+- [idea-collider](https://github.com/MYTPONS/idea-collider) — 把两个领域的硬约束碰在一起，找可开工的方向。
 
-1. **Ship the interface, not just the demo.** 能安装、能升级、能恢复，再谈“完成”。
-2. **Evidence over vibes.** 文档、测试、CI、Release 和可复现命令优先于口头结论。
-3. **Local-first by default.** 记忆、快照和浏览器 profile 不默认上云；敏感数据不进入公开仓库。
-4. **Separate the layers.** DSH 工具、Agent skill、业务应用各自有边界，不把所有能力塞进一个巨型插件。
+## 偏好
 
-## Stack
+- 本地优先，能自己掌握的数据不要默认上云。
+- 工具要能恢复，失败要能解释。
+- 先跑通最小闭环，再谈抽象和漂亮。
+- 人可以审查 agent，而不是把决定权全部交出去。
+
+## 工具
 
 `JavaScript` · `TypeScript` · `Python` · `Go` · `Kotlin/Android` · `Node.js` · `Linux` · `Cordis/DSH`
 
-## Find the work
+## 找到我
 
-- [All public repositories](https://github.com/MYTPONS?tab=repositories)
-- [Recently updated repositories](https://github.com/MYTPONS?tab=repositories&sort=updated)
-- [Open an issue](https://github.com/MYTPONS/dsh-project-memory/issues) for project-memory questions, or use the relevant repository's issue tracker.
+- [公开仓库](https://github.com/MYTPONS?tab=repositories)
+- [最近更新](https://github.com/MYTPONS?tab=repositories&sort=updated)
+- 有问题就开 issue，或者直接看对应仓库的 README。
 
-> Public profile only. Private work, credentials, local profiles, and project memory are not published here.
+> 这里只放公开作品。私密工作、凭据、本地 profile 和项目记忆不公开。
