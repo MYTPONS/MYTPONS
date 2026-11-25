@@ -8,23 +8,19 @@
 
 ## DSH toolchain
 
-| Project | Public surface | Release / CI |
-|---|---|---|
-| [dsh-project-memory](https://github.com/MYTPONS/dsh-project-memory) | `project_*` tools: records, logs, docs, feature checklist, bounded search, archive/restore | [v1.0.0](https://github.com/MYTPONS/dsh-project-memory/releases/tag/v1.0.0) · [CI](https://github.com/MYTPONS/dsh-project-memory/actions/workflows/verify.yml) |
-| [dsh-browser-cdp](https://github.com/MYTPONS/dsh-browser-cdp) | `browser_*` tools over persistent Firefox or Chromium/CDP sessions | [v1.0.1](https://github.com/MYTPONS/dsh-browser-cdp/releases/tag/v1.0.1) · [CI](https://github.com/MYTPONS/dsh-browser-cdp/actions/workflows/verify.yml) |
-| [dsh-backup](https://github.com/MYTPONS/dsh-backup) | One self-pruning snapshot store for files outside version control | [v1.0.0](https://github.com/MYTPONS/dsh-backup/releases/tag/v1.0.0) · [CI](https://github.com/MYTPONS/dsh-backup/actions/workflows/verify.yml) |
+- **[dsh-project-memory](https://github.com/MYTPONS/dsh-project-memory)** · [v1.0.0](https://github.com/MYTPONS/dsh-project-memory/releases/tag/v1.0.0) · [CI](https://github.com/MYTPONS/dsh-project-memory/actions/workflows/verify.yml) — `project_*` tools for records, logs, docs, feature checklist, bounded search, archive, and restore.
+- **[dsh-browser-cdp](https://github.com/MYTPONS/dsh-browser-cdp)** · [v1.0.1](https://github.com/MYTPONS/dsh-browser-cdp/releases/tag/v1.0.1) · [CI](https://github.com/MYTPONS/dsh-browser-cdp/actions/workflows/verify.yml) — `browser_*` tools over persistent Firefox or Chromium/CDP sessions.
+- **[dsh-backup](https://github.com/MYTPONS/dsh-backup)** · [v1.0.0](https://github.com/MYTPONS/dsh-backup/releases/tag/v1.0.0) · [CI](https://github.com/MYTPONS/dsh-backup/actions/workflows/verify.yml) — one self-pruning snapshot store for files outside version control.
 
 这些仓库都是 DSH bundle，不是通用 SaaS 或空壳 demo。安装路径、工具边界、测试和 Release 都写在各自 README 里。
 
 ## Selected work
 
-| Project | What it does |
-|---|---|
-| [draftvein](https://github.com/MYTPONS/draftvein) `TypeScript · writing` | 逐章推进的 AI 长篇小说写作工作台，含伏笔台账、质量审稿与作家助手草稿递交 |
-| [blackbox-web-reverse](https://github.com/MYTPONS/blackbox-web-reverse) `Agent skill · research` | 面向授权目标的黑盒 Web 逆向工作流：前端、接口契约、数据模型与证据包 |
-| [idea-collider](https://github.com/MYTPONS/idea-collider) `Python · product research` | 把两个领域的硬约束求交集，用证据过滤生成可开工的产品方向 |
-| [nodegrid](https://github.com/MYTPONS/nodegrid) `Python · distributed systems` | 服务器控制免公网节点的分布式任务框架，带风险分级抽查与完整性探针 |
-| [AppDian](https://github.com/MYTPONS/AppDian) `Android · data tools` | 用 JSON 规则聚合应用列表、详情与下载地址的应用软件库 |
+- **[draftvein](https://github.com/MYTPONS/draftvein)** `TypeScript · writing` — 逐章推进的 AI 长篇小说写作工作台，含伏笔台账、质量审稿与作家助手草稿递交。
+- **[blackbox-web-reverse](https://github.com/MYTPONS/blackbox-web-reverse)** `Agent skill · research` — 面向授权目标的黑盒 Web 逆向工作流：前端、接口契约、数据模型与证据包。
+- **[idea-collider](https://github.com/MYTPONS/idea-collider)** `Python · product research` — 把两个领域的硬约束求交集，用证据过滤生成可开工的产品方向。
+- **[nodegrid](https://github.com/MYTPONS/nodegrid)** `Python · distributed systems` — 服务器控制免公网节点的分布式任务框架，带风险分级抽查与完整性探针。
+- **[AppDian](https://github.com/MYTPONS/AppDian)** `Android · data tools` — 用 JSON 规则聚合应用列表、详情与下载地址的应用软件库。
 
 ## Working rules
 
